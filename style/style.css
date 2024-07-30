@@ -1,0 +1,32 @@
+/* import the necessary Bootstrap files */
+@import "bootstrap";
+
+/* ------- customize primary buttons -------- */   
+$mynewcolor:teal;
+
+.main_change {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+.sellBuy{
+  text-align: center;
+}
+.dollarSol{
+  text-align: center;
+}
+.initSession{
+  text-align: center;
+}
+/*#initButton{
+  background-color: #40E0D0;
+}*/
+
+.btn-primary {
+    @include button-variant($mynewcolor, darken($mynewcolor, 7.5%), darken($mynewcolor, 10%), lighten($mynewcolor,5%), lighten($mynewcolor, 10%), darken($mynewcolor,20%));
+}
+.btn-outline-primary {
+    @include button-outline-variant($mynewcolor, darken($mynewcolor,4%), lighten($mynewcolor,5%), $mynewcolor);
+}
+/*https://www.codeply.com/go/f3uTwmsCVZ*/

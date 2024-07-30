@@ -1,0 +1,36 @@
+	<!DOCTYPE html>
+<html>
+	<head>
+      <script type = "text/javascript" src="script/change.js"></script>
+      <link rel="stylesheet" href="style/style.css">
+      <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   </head>
+<body>
+
+	<h1>CASA DE CAMBIO</h1>
+
+	<div class="main_change"> 
+		<form action="index.php" method="POST">
+			<div class="sellBuy">
+				<input type="button" id="compra" onClick="switchBuy()" Value="Compra" > 
+				<input type="button" id="venta" onClick="switchSell()" Value="Venta" >
+			</div>
+			<br> <br> 
+			<div class="dollarSol">
+				<input type="text" id="dollar" onkeyup="buyDollar1()">
+				<input type="button" id="dollarTxt" Value="Dolares"><br> <br> 
+				<input type="text" id="sol" onkeyup="buyDollar2()">
+				<input type="button" id="solesTxt" Value="Soles" ><br> <br> <br>
+			</div>
+			<div class="col-md-auto col-4">
+                <button class="btn btn-lg btn-primary mr-1">Inicio de sesion</button>
+            </div>
+		</form>
+	</div>
+
+</body>
+</html>
