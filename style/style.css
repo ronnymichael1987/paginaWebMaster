@@ -16,7 +16,19 @@ $mynewcolor:teal;
 .dollarSol{
   text-align: center;
 }
-.initSession{
+.startSession{
+  text-align: center;
+}
+.initSession {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
   text-align: center;
 }
 /*#initButton{
@@ -30,3 +42,66 @@ $mynewcolor:teal;
     @include button-outline-variant($mynewcolor, darken($mynewcolor,4%), lighten($mynewcolor,5%), $mynewcolor);
 }
 /*https://www.codeply.com/go/f3uTwmsCVZ*/
+#compra {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+#venta {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+#dollarTxt {
+  background-color: #0d6ba5; /*0d6ba5 blue */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  width: 9%;
+}
+#solTxt {
+  background-color: #0d6ba5; /*0d6ba5 blue */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  width: 9%;
+}
+
+#sol{
+  width: 15%;
+  height: 5%;
+  padding: 12px 10px;
+  margin: 0px 0;
+  box-sizing: border-box;
+}
+#dollar{
+  width: 15%;
+  height: 5%;
+  padding: 12px 10px;
+  margin: 0px 0;
+  box-sizing: border-box;
+}

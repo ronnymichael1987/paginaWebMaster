@@ -37,7 +37,7 @@ function buyDollar2() {
 
 function switchBuy() {
     document.getElementById('dollarTxt').value = "Dolares";
-    document.getElementById('solesTxt').value = "Soles";
+    document.getElementById('solTxt').value = "Soles";
     num1 = document.getElementById("dollar").value;
     num2 = document.getElementById("sol").value;
     change = 0;
@@ -46,7 +46,7 @@ function switchBuy() {
 }
 function switchSell() {
     document.getElementById('dollarTxt').value = "Soles";
-    document.getElementById('solesTxt').value = "Dolares";
+    document.getElementById('solTxt').value = "Dolares";
     num1 = document.getElementById("dollar").value;
     num2 = document.getElementById("sol").value;
     change = 1;
